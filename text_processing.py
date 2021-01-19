@@ -38,7 +38,7 @@ def normalize(input_string):
     A=normalized_string.split()
     
     
-    return ' '.join(A.split())
+    return ' '.join(A)
 
 
 def no_vowels(input_string):
@@ -62,6 +62,6 @@ def no_vowels(input_string):
             >>> tp.normalize(input_string2)
             ''W lv Pythn!'
     """
-    for i in ['a','e','i','o','u']:
+    for i in ['a','e','i','o','u','A','E','I','O','U']:
         input_string=input_string.replace(i,'')
     return input_string
