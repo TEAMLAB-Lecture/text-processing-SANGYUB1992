@@ -35,10 +35,10 @@ def normalize(input_string):
     """
     normalized_string = input_string.lower()
     normalized_string = normalized_string.strip()
-    A=normalized_string.split()
+    B=normalized_string.split()
     
     
-    return ' '.join(A)
+    return ' '.join(B)
 
 
 def no_vowels(input_string):
